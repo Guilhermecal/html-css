@@ -7,14 +7,22 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh;
+           /* height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
-
+            */
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed; 
+            /*os navegador n~~ao esta aceitando shortharc com size*/
+            background-size: cover;
         }
+        /*short hand 
+        color > image > position > repeat > {size} > attachment
+
+        background: black url("imagem") center center no-repeat cover fixed;
+        */
         main {
             border-radius: 5px;
             border: 1px solid blue;
