@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>tabela responsivas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+        /*para ficar responsivo
+        dentro da div, assim a rolagem da tela fica apenas na tabela */
+        div#conteiner {
+            overflow-x:auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas para telas pequenas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas sint molestias facere itaque explicabo pariatur repudiandae, dicta obcaecati nisi velit quasi. Qui velit eos maiores id aliquid optio totam esse.</p>
+
+    <div id="conteiner">
+        <table>
+            <caption>
+                Tabela responsiva
+            </caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>janeiro</th>
+                    <th>fevereiro</th>
+                    <th>março</th>
+                    <th>abril</th>
+                    <th>maio</th>
+                    <th>junho</th>
+                    <th>julho</th>
+                    <th>agosto</th>
+                    <th>setembro</th>
+                    <th>outubro</th>
+                    <th>novembro</th>
+                    <th>dezembro</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tv</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>43</td>
+                    <td>45</td>
+                    <td>43</td>
+                    <td>4</td>
+                    <td>54</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>47</td>
+                    <td>34</td>
+                </tr>
+                <tr>
+                    <td>DVD</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>43</td>
+                    <td>45</td>
+                    <td>43</td>
+                    <td>4</td>
+                    <td>54</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>47</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>livros</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>43</td>
+                    <td>45</td>
+                    <td>43</td>
+                    <td>4</td>
+                    <td>54</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>47</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>video cassete</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>43</td>
+                    <td>45</td>
+                    <td>43</td>
+                    <td>4</td>
+                    <td>54</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>47</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>Iphone</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>43</td>
+                    <td>45</td>
+                    <td>43</td>
+                    <td>4</td>
+                    <td>54</td>
+                    <td>4</td>
+                    <td>2</td>
+                    <td>47</td>
+                    <td>56</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
