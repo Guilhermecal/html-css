@@ -23,13 +23,16 @@
             color: white;
         }
         tfoot {
-            background-color: antiquewhite;
+            background-color: lightgray;
         }
         caption {
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+        tbody > tr:nth-child(even) { /*2n */
+            background-color: lightgreen;
         }
     </style>
 </head>
@@ -80,10 +83,6 @@
                 <td>Pernambuco</td>
                 <td class="num">8 796 448</td>
             </tr>
-
-
-
-
         </tbody>
         <tfoot>
             <tr>
