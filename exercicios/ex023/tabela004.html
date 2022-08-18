@@ -11,7 +11,12 @@
 
         }
         table {
+            border-collapse: collapse;
             border: 1px solid black;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
         }
     </style>
 </head>
@@ -24,10 +29,44 @@
             <tr>
                 <th>Grupos</th>
                 <th>Nomes</th>
-                <th>Filmes</th>
+                <th colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <th rowspan="3">Mulheres</th>
+                <td>Ana Maria</td>
+                <td>alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+
+            </tr>
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td>Maria do Carmo</td>
+                <td>Auto da compadecida</td>
+                <td>Tropa de Elite 2: o inimigo agora é outro.</td>
+                <td>A Serbian movie</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Homens</th>
+                <td>Guilherme</td>
+                <td>Taxi Drive</td>
+                <td>Jurassic Park</td>
+                <td>Pulp Fiction</td>
+            </tr>
+            <tr>
+                <td>guará</td>
+                <td>Diario de uma paixão</td>
+                <td>um lugar chamado nothing hill</td>
+                <td>Esmeralda: o Filme</td>
+            </tr>
 
         </tbody>
     </table>
