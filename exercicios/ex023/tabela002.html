@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -25,6 +26,11 @@
         tfoot {
             background-color: lightgray;
         }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: lightslategrey;
+        }
         caption {
             font-size: 1.5em;
             font-weight: bold;
@@ -32,7 +38,7 @@
             background-color: lightgray;
         }
         tbody > tr:nth-child(even) { /*2n */
-            background-color: lightgreen;
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -83,6 +89,90 @@
                 <td>Pernambuco</td>
                 <td class="num">8 796 448</td>
             </tr>
+            <tr>
+                <td>Ceará</td> 
+                <td class="num">8 452 381</td>
+            </tr>
+             
+            <tr>
+                <td>Pará</td> 
+                <td class="num">7 581 051</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">6 248 436</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">6 003 788</td>
+            </tr> 
+            <tr>
+                <td>Maranhão</td> 
+                <td class="num">6 574 789</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td> 
+                <td class="num">3 483 985</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td> 
+                <td class="num">3 766 528</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td> 
+                <td class="num">3 035 122</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">3 168 027</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td>3 120 494</td>
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td>3 118 360</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td>2 570 160</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td>2 449 024</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td>2 068 017</td>
+            </tr>	
+            <tr>
+                <td>Rondônia</td>
+                <td>1 562 409</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>1 383 445</td></tr>
+            <tr>
+                <td>Acre </td>
+                <td>733 559</td>
+            </tr>
+            <tr>
+                <td>Amapá</td> 
+                <td>669 526</td>
+            </tr>
+            <tr>
+                <td>Roraima </td>
+                <td>450 479</td>
+            </tr>
+
+
+
+
+
+
+
+
         </tbody>
         <tfoot>
             <tr>
@@ -92,6 +182,8 @@
         </tfoot>
         
     </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui vero numquam sapiente minus quia, accusantium velit autem quae dolorum minima voluptatum distinctio quaerat eius nam, et ratione repellat unde officiis.</p>
+    
     
 </body>
 </html>
