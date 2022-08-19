@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio 3 tabelas</title>
+    <style>
+        body {
+            background-color: white;
+        }
+        table {
+            height: 400px;
+            width: 400px;
+            text-align: center;
+            border-collapse: collapse;
+            
+        }
+        th, td {
+            
+            border: 1px solid black;
+        }
+        th {
+            background-color: lightgray;
+        }
+        .media {
+            background-color: lightslategray;
+        }
+        /*PseudoClasse para o efeito zebrado*/
+        tr:nth-child(2n) {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boletim</h1>
+
+    <table>
+        <caption> notas dos alunos</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Area</th>
+                <th rowspan="2" scope="col">Diciplinas</th>
+                <th colspan="2" scope="colgroup">notas</th>
+                <th rowspan="2" scope="col">Media</th>
+            </tr>
+            <tr>
+                <th scope="col">nota1</th>
+                <th scope="col">nota2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th class="media" colspan="4" scope="row">Media Exatas</th>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="row">humanas</th>
+                <td>Historia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Português</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Filosofia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                
+            </tr>
+            <tr>
+                <th class="media" colspan="4">Media Humanas</th>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
