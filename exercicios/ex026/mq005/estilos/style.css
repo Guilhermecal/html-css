@@ -1,5 +1,45 @@
 @charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body, html {
     background-color: rgb(184, 230, 173);
+}
+header {
+    background-color: gray;
+    position: relative;
+}
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+menu {
+    display: block;
+}
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li > a {
+    
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(3, 243, 3, 0.199);
+    color: white;
+    border-top: 2px solid gray;
+}
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 18px;
+    border-radius: 10px;
+}
+article > h2 {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 10px;
 }
