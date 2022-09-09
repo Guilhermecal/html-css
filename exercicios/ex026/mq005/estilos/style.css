@@ -1,5 +1,7 @@
 @charset "UTF-8";
 * {
+    margin: 0px;
+    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,8 +16,22 @@ header > h1 {
     padding: 10px;
     text-align: center;
 }
-menu {
+
+span#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+}
+span#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+    padding: 3px;
 }
 menu > ul {
     list-style-type: none;
@@ -29,6 +45,9 @@ menu > ul > li > a {
     background-color: rgba(3, 243, 3, 0.199);
     color: white;
     border-top: 2px solid gray;
+}
+menu > ul > li:hover {
+    background-color: darkgreen;
 }
 main {
     width: 90vw;
