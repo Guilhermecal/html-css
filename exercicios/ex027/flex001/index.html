@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner {
+            background-color: aqua;
+            border-radius: 10px;
+
+            display: flex;
+        }
+        .item {
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            margin: 10px;
+            border-radius: 5px;
+            flex: auto;
+        }
+        a {
+            list-style: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <button class="item">a</button>
+        <div class="item">b</div>
+        <div class="item">c</div>
+    </div>
+    
+</body>
+</html>
